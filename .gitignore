@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/url_shortener.db*
+*.py[cod]
+
+# Local configuration and tooling
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.vscode/
+.idea/
+
